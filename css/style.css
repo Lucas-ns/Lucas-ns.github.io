@@ -1,0 +1,152 @@
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  color: #741bff;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  font-family: Arial;
+  color: #4a566e;
+  margin: 0;
+  transition: background 1s;
+}
+
+.fotoperfil {
+  border-radius: 100px;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 30px;
+  width: 5%;
+}
+
+.logomenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ln{
+  border-radius: 200px;
+  width: 100px;
+}
+
+.caixa1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(background.png);
+  background-size: cover;
+}
+
+.menu {
+  text-align: right;
+  padding-right:40px;
+  width: 95%;
+}
+
+.caixa2 {
+  background: #741bff;
+  padding-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+.caixa3 {
+  height: 300px;
+  text-align: center;
+}
+
+.linkmenu {
+  text-decoration: none;
+  color: #4a566e;
+  margin-left: 20px;
+  color: inherit;
+}
+
+a:hover {
+  color: blue;
+}
+
+.habilidade {
+  background: white;
+  width: 300px;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 50px;
+  color: #4a566e;
+}
+
+.titulohabilidades {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.linkwhatsapp {
+  color: white;
+  background: green;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.linkwhatsapp:hover {
+  background: lightgreen;
+  color: white;
+  transition: background 0.3s;
+}
+
+.linklinkedin {
+  color: #405ef5;
+}
+
+.linkfacebook {
+  color: #405ef5;
+}
+
+.titulocontato {
+  padding-bottom: 50px;
+}
+
+.outroscontatos {
+  padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .habilidade {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+}
