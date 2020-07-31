@@ -1,0 +1,91 @@
+<html>
+  
+  <head>
+  <title>Ola, eu sou Lucas</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="caixa1" id="sobre">
+      <div class="logomenu"> 
+        
+        <div class="logo">
+          <img class="ln" src="logo.jpg">
+        </div>
+
+       <div class="menu">
+          <a href="#sobre" class="linkmenu">Sobre mim</a>
+          <a href="#habilidades" class="linkmenu">Minhas habilidades</a>
+          <a href="#contato" class="linkmenu">Fale comigo!</a>
+        </div>
+
+      </div>
+
+      <h1>Lucas do Nascimento</h1>
+
+      <p> Sou estudante de Engenharia da computação e quero ser <br> um desenvolvedor full-stack começando minha carreira e apaixonado <br> por aprender coisas novas. Além disso, sou uma pessoa fácil de lidar e me <br> encaixo em qualquer time. Estou buscando uma boa empresa para <br> trabalhar e gerar um impacto positivo no mundo através da tecnologia  :)</p>
+
+      <img class="fotoperfil" src="eu.JPG" width= 200px onclick="anoitecer()">
+    </div>
+
+    <div class="caixa2" id="habilidades">
+      <div class="titulohabilidades"><h2>Minhas habilidades</h2></div>
+
+      <div class="container">
+
+        <div class="habilidade">
+          <img src="frontend.png">
+          <h3>Front-end</h3>
+          <p>Eu programo sites do zero, e levo ideias do papel para o navegador, me preocupando com a entrega final.</p>
+          <h4>Linguagens:</h4>
+          <p>HTML, CSS, JavaScript</p>
+          <h4>Ferramentas:</h4>
+          <p>React</p>
+          <p>Redux</p>
+          <p>SASS</p>
+
+        </div>
+
+
+        <div class="habilidade">
+          <img src="backend.png">
+          <h3>Back-end</h3>
+          <p>Desenvolvo sistemas para dar suporte aos produtos web, crio APIs e tenho boa experiência com banco de dados.</p>
+          <h4>Tecnologias:</h4>
+          <p>Node.js, REST, SQL</p>
+          <h4>Ferramentas:</h4>
+          <p>Express</p>
+          <p>Postgres</p>
+          <p>Sequelize</p>
+        
+        </div>
+      
+      </div>
+
+    </div>  
+
+    <div class="caixa3" id="contato">
+    <h2 class="titulocontato">Me manda uma mensagem :)</h2>
+    <a href="https://api.whatsapp.com/send?phone=5521969930646&text=&source=&data=&app_absent=" target="_blank" class="linkwhatsapp">Mandar um WhatsApp</a>
+    <p class="outroscontatos">Ou então fale comigo pelo <a href="https://www.linkedin.com/in/lucas-do-nascimento-2894a9130/" target="_blank" class="linklinkedin">LinkedIn</a> ou <a href="https://www.facebook.com/lucas.nascimentosilva.39" target="_blank" class="linkfacebook">Facebook</a></p>
+    </div>
+
+  <script>
+        let dark = false;
+        function anoitecer() {
+          dark = !dark;
+            if(dark === true) {
+              document.body.style.background = "#333333";
+              document.body.style.color = "#ffffff"; 
+              
+            }
+            else {
+              document.body.style.background = "#fff";
+              document.body.style.color = "#4a566e";
+            }
+        }
+    </script>
+
+  </body>
+</html>
